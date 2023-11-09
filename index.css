@@ -1,0 +1,347 @@
+header .link span{
+    color:rgba(11, 96, 153);
+    font-family: montserrat;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+
+}
+
+*::selection {
+    color: rgba(250, 246, 11, 0.918);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(33, 147, 176, 0.1) 0%, rgba(109, 213, 237, 0.1) 100%);
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 4.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: #7DE0FF;
+    border-radius: 37px;
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    transition: all .3s linear;
+}
+
+
+
+.heading {
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url(images/background.png);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .link {
+    position: absolute;
+    width: 130px;
+    height: 34px;
+    left: 113px;
+    top: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #0FC5FF;
+
+}
+header .navbar a {
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    color: black;
+}
+
+header .navbar a:hover {
+    color: var(--pink);
+}
+
+header input {
+    display: none;
+}
+
+header label {
+    font-size: 3rem;
+    /* color: var(--purple); */
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .image img {
+    width: 42vw;
+}
+.home .content h3 {
+    font-size: 5.5rem;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    width: 15cm;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: montserrat;
+}
+.home .content button {
+    position: absolute;
+    width: 219px;
+    height: 55px;
+    left: 105px;
+    top: 650px;
+    background: #7DE0FF;
+    border-radius: 37px;
+    cursor: pointer;
+    color: snow;
+    font-size: 18px;
+}
+
+.home .content .google {
+    position: absolute;
+    width: 219px;
+    height: 60px;
+    left: 350px;
+    top: 650px;
+    background: #7DE0FF;
+    border-radius: 37px;
+    cursor: pointer;
+    color: snow;
+}
+
+.home .shape {
+    position: absolute;
+    width: 1227px;
+    height: 231px;
+    left: 60px;
+    top: 800px;
+    background: #71CBE8;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 52px;
+}
+
+.home .shape h1 {
+    position: absolute;
+    width: 376px;
+    height: 101px;
+    left: 175px;
+    top: 75px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: snow;
+}
+
+.home .shape  .rectangle .buttons #iphone {
+    position: absolute;
+    width: 219px;
+    height: 55px;
+    left: 650px;
+    top: 75px;
+    background: #585858;
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 37px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.home .shape  .rectangle .buttons #android {
+    position: absolute;
+    width: 219px;
+    height: 55px;
+    left: 930px;
+    top: 75px;
+    background: #585858;
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 37px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.home .bottom {
+    position: absolute;
+    width: 1440px;
+    height: 401px;
+    left: -90px;
+    top: 880px;
+    background: #585858;
+}
+
+.home .bottom h3 {
+    position: absolute;
+    width: 154px;
+    height: 40px;
+    left: 140px;
+    top: 220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 40px;
+    color: #7DE0FF;
+}
+
+.home .bottom p {
+    position: absolute;
+    width: 216px;
+    height: 48px;
+    left: 140px;
+    top: 285px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #EDEDED;
+}
+
+.home .bottom .col1 h4 {
+    position: absolute;
+    width: 94px;
+    height: 100px;
+    left: 634px;
+    top: 230px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.home .bottom .col1 p {
+    position: absolute;
+    width: 94px;
+    height: 100px;
+    left: 634px;
+    top: 275px;
+    font-family: montserrat;
+    font-style: normal;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.home .bottom .col2 h4 {
+    position: absolute;
+    width: 216px;
+    height: 76px;
+    left: 1100px;
+    top: 230px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 156.69%;
+
+    color: #EDEDED;
+}
+
+.home .bottom .col2 p {
+    position: absolute;
+    width: 216px;
+    height: 76px;
+    left: 1100px;
+    top: 260px;
+    font-family: montserrat;
+    font-style: normal;
+    line-height: 156.69%;
+
+    color: #EDEDED;
+}
+
+.home .bottom .col2 .google {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1092px;
+    top: 330px;
+    background: url(Google.png);
+}
+
+.home .bottom .col2 .twitter {
+    position: absolute;
+    width: 41px;
+    height: 40px;
+    left: 1146px;
+    top: 330px;
+    background: url(Twitter.png);
+}
+
+.home .bottom .col2 .facebook {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1201px;
+    top: 330px;
+    background: url(Facebook.png);
+}
+
+.home .content h3 span {
+    color: black;
+    text-transform: uppercase;
+}
+
+.home .content p {
+    font-size: 1.7rem;
+    color: rgb(1, 5, 31);
+    padding: 1rem 0;
+    font-family: montserrat;
+}
+.button:hover {
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.1);
+}
